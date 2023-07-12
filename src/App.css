@@ -5,3 +5,14 @@
 #resume{
     margin-bottom: 70px;
 }
+#skills{
+    margin-bottom: 70px;
+}
+#footer{
+    padding-top: 50px;
+    background-color: white;
+}
+.nav-link{
+    padding-top: 0 !important;
+    padding-bottom: 2 !important;
+}

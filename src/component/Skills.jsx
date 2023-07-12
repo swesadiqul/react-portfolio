@@ -12,13 +12,12 @@ import JavaScript from "../assets/skills/js.png";
 import ReactJs from "../assets/skills/science.png";
 import Bootstrap from "../assets/skills/bootstrap.png";
 import Django from "../assets/skills/django.png";
-import DomainHosting from "../assets/services/domain.png";
 
 function Skills() {
   return (
     <>
-      <Container>
-        <div id="resume">
+      <div id="skills">
+        <Container>
           <Stack direction="horizontal" gap={2}>
             <Badge pill bg="dark" text="white">
               Skills
@@ -34,7 +33,7 @@ function Skills() {
                 <Card.Body>
                   <Row className="align-items-center">
                     <Col>
-                      <Card.Title className="fs-5 mt-3">Python</Card.Title>
+                      <Card.Title className="fs-6 mt-3">Python</Card.Title>
                     </Col>
                     <Col>
                       <Image src={Python} alt="Web Design" />
@@ -48,7 +47,7 @@ function Skills() {
                 <Card.Body>
                   <Row className="align-items-center">
                     <Col>
-                      <Card.Title className="fs-5 mt-3">Django</Card.Title>
+                      <Card.Title className="fs-6 mt-3">Django</Card.Title>
                     </Col>
                     <Col>
                       <Image src={Django} alt="Django" />
@@ -62,7 +61,7 @@ function Skills() {
                 <Card.Body>
                   <Row className="align-items-center">
                     <Col>
-                      <Card.Title className="fs-5 mt-3">DRF</Card.Title>
+                      <Card.Title className="fs-6 mt-3">DRF</Card.Title>
                     </Col>
                     <Col>
                       <Image src={Python} alt="DRF" />
@@ -76,7 +75,7 @@ function Skills() {
                 <Card.Body>
                   <Row className="align-items-center">
                     <Col>
-                      <Card.Title className="fs-5 mt-3">HTML</Card.Title>
+                      <Card.Title className="fs-6 mt-3">HTML</Card.Title>
                     </Col>
                     <Col>
                       <Image src={HTML} alt="HTML" />
@@ -90,7 +89,7 @@ function Skills() {
                 <Card.Body>
                   <Row className="align-items-center">
                     <Col>
-                      <Card.Title className="fs-5 mt-3">CSS</Card.Title>
+                      <Card.Title className="fs-6 mt-3">CSS</Card.Title>
                     </Col>
                     <Col>
                       <Image src={CSS} alt="CSS" />
@@ -104,7 +103,7 @@ function Skills() {
                 <Card.Body>
                   <Row className="align-items-center">
                     <Col>
-                      <Card.Title className="fs-5 mt-3">JavaScript</Card.Title>
+                      <Card.Title className="fs-6 mt-3">JavaScript</Card.Title>
                     </Col>
                     <Col>
                       <Image src={JavaScript} alt="JavaScript" />
@@ -118,7 +117,7 @@ function Skills() {
                 <Card.Body>
                   <Row className="align-items-center">
                     <Col>
-                      <Card.Title className="fs-5 mt-3">jQuery</Card.Title>
+                      <Card.Title className="fs-6 mt-3">jQuery</Card.Title>
                     </Col>
                     <Col>
                       <Image src={Python} alt="jQuery" />
@@ -132,7 +131,7 @@ function Skills() {
                 <Card.Body>
                   <Row className="align-items-center">
                     <Col>
-                      <Card.Title className="fs-5 mt-3">React</Card.Title>
+                      <Card.Title className="fs-6 mt-3">React</Card.Title>
                     </Col>
                     <Col>
                       <Image src={ReactJs} alt="React Js" />
@@ -146,7 +145,7 @@ function Skills() {
                 <Card.Body>
                   <Row className="align-items-center">
                     <Col>
-                      <Card.Title className="fs-5 mt-3">Bootstrap</Card.Title>
+                      <Card.Title className="fs-6 mt-3">Bootstrap</Card.Title>
                     </Col>
                     <Col>
                       <Image src={Bootstrap} alt="Bootstrap" />
@@ -160,7 +159,7 @@ function Skills() {
                 <Card.Body>
                   <Row className="align-items-center">
                     <Col>
-                      <Card.Title className="fs-5 mt-3">Tailwind</Card.Title>
+                      <Card.Title className="fs-6 mt-3">Tailwind</Card.Title>
                     </Col>
                     <Col>
                       <Image src={Python} alt="Tailwind" />
@@ -174,7 +173,7 @@ function Skills() {
                 <Card.Body>
                   <Row className="align-items-center">
                     <Col>
-                      <Card.Title className="fs-5 mt-3">UnitTest</Card.Title>
+                      <Card.Title className="fs-6 mt-3">UnitTest</Card.Title>
                     </Col>
                     <Col>
                       <Image src={Python} alt="Web Design" />
@@ -184,8 +183,8 @@ function Skills() {
               </Card>
             </Col>
           </Row>
-        </div>
-      </Container>
+        </Container>
+      </div>
     </>
   );
 }

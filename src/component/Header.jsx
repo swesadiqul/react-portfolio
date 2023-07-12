@@ -12,7 +12,7 @@ function Header() {
       <Container>
       <Navbar className="bg-body-tertiary">
         <Container>
-          <Navbar.Brand href="#home">
+          <Navbar.Brand href="/">
             <img
               src={Logo}
               height="40"
@@ -25,25 +25,25 @@ function Header() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
+            <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="#about">About</Nav.Link>
             <Nav.Link href="#resume">Resume</Nav.Link>
             <NavDropdown title="Services" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Web Design</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
+              <NavDropdown.Item href="#webdesign">Web Design</NavDropdown.Item>
+              <NavDropdown.Item href="#webdevelopment">
                 Web Development
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">SEO / Marketing</NavDropdown.Item>
+              <NavDropdown.Item href="#marketing">Marketing</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
+              <NavDropdown.Item href="#appdevelopment">
                 App Development
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="#link">Skills</Nav.Link>
-            <Nav.Link href="#link">Portfolio</Nav.Link>
-            <Nav.Link href="#link">Testimonial</Nav.Link>
-            <Nav.Link href="#link">Contact</Nav.Link>
-            <Nav.Link href="#link">Blog</Nav.Link>
+            <Nav.Link href="#skills">Skills</Nav.Link>
+            <Nav.Link href="#portfolio">Portfolio</Nav.Link>
+            <Nav.Link href="#testimonial">Testimonial</Nav.Link>
+            <Nav.Link href="#contact">Contact</Nav.Link>
+            <Nav.Link href="#blog">Blog</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

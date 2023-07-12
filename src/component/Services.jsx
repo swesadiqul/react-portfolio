@@ -5,7 +5,6 @@ import Stack from "react-bootstrap/Stack";
 import Image from "react-bootstrap/Image";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Button from "react-bootstrap/Button";
 import WebDesign from '../assets/services/web-design.png'
 import WebDevelopment from '../assets/services/web-development.png'
 import AppDevelopment from '../assets/services/app-development.png'
